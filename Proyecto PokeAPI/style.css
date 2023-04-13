@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(to right, #43cea2 , #185a9d, red) ;
+}
+.fire{
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-002-fire_energy.jpg?w=734&ssl=1);
+    background-size: cover;
+    
+}
+.img:hover{
+    transform: scale(2);
+}
+
+/* POkedex flotante, como quitarlo en js? todavia no esta termiando*/
+.pkdx {
+    position:sticky; 
+    bottom: 10rem;
+    z-index: 155 ;
+    text-align: center;
+}
+.float{
+    width: 500px;   
+}
+
+/*  Clases  aqui luego pense que lo podria haber hecho con mixins. pero ya era tarde :)    */
+.grass, .bug, .poison{
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-001-grass_energy.jpg?w=734&ssl=1);
+    background-size: cover;
+}
+.water, .ice{
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SM_Energy-003-water_energy-1.jpg?w=734&ssl=1);
+    background-size: cover;
+}
+.fairy{
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-009-fairy_energy.jpg?w=734&ssl=1);
+    background-size: cover;
+}
+.fighting, .rock, .ground {
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-006-fighting_energy.jpg?w=734&ssl=1);
+    background-size: cover;
+}
+.psychic, .ghost{
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-005-psychic_energy.jpg?w=734&ssl=1);
+    background-size: cover;
+}
+.electric{
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-004-lightning_energy.jpg?w=734&ssl=1);
+    background-size: cover;
+}
+.normal{
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-017-metal_energy.jpeg?w=734&ssl=1);
+    background-size: cover;
+}
+.dragon {
+    background-image: url(https://i0.wp.com/pkmncards.com/wp-content/uploads/en_US-SWSH_Energy-016-darkness_energy.jpeg?w=734&ssl=1);
+    background-size: cover;
+}
+
+/*  General */
+#pokedex{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-left: 10px;
+}
+.img{
+    width: 100px ;
+   
+}
+.logo {
+    width:200px;
+}
+h1{
+
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    display:flex;
+    
+}
+ol li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Pokemon Solid', sans-serif;
+    
+}
+
